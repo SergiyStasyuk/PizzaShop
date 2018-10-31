@@ -1,7 +1,9 @@
 function something()
-
 {
-	alert('Hello everyone!!!');
+	var x = window.localStorage.getItem('aaa');
+
+
+	alert(x);
 }
 
 
